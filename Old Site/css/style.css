@@ -1,0 +1,240 @@
+/* Base Blue
+#66bd9f */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Lora', sans-serif;
+}
+
+h2 {
+    font-family: 'Lora', sans-serif;
+}
+
+h3 {
+    font-family: 'Lora', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.row {
+    margin-bottom: 3rem;
+    padding: 0 3rem;
+}
+
+/*NAVIGATION*/
+.navbar-default {
+ background-color: white;
+ border-bottom: .1rem solid black;
+ padding: 0 5rem 1.5rem 5rem;
+ margin: 0;
+}
+
+.navbar-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 3.5rem 5rem 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #777;
+    padding: .5rem 1rem;
+    border: .1rem solid transparent;
+    margin: 1.5rem;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color:black;
+    padding: .5rem 1rem;
+    border: .1rem solid black;
+}
+
+.navbar-default .navbar-nav li a.active {
+    color:black;
+    padding: .5rem 1rem;
+    border: .1rem solid black;
+}
+
+.logo h1 {
+    margin: 3rem 0 0 3rem;
+    height: 7rem;
+    color: #777;
+}
+
+.logo h1:hover {
+    color: black;
+}
+
+.navbar-collapse {
+    box-shadow: 0,0,0,0.7;
+}
+
+button.navbar-toggle {
+    color: white;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    color: #b6daff;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media(max-width: 768px) {
+
+ .logo {
+  margin: 1rem 0 0 1.5rem;
+ }
+
+ .navbar-nav {
+  margin:0;
+  background-color: #000000e6;
+  width: 100%;
+ }
+ 
+ .navbar-toggle {
+  margin: 4rem;
+ }
+
+}
+
+/*WELCOME*/
+.jumbotron p {
+    font-size: 1.7rem;
+}
+
+.jumbotron p.lead {
+    font-size: 2rem;
+}
+
+#welcome .jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-size: cover;
+    padding: 0;
+}
+
+.jumbotron-overlay {
+    padding: 0;
+    background: -moz-linear-gradient(left, #000000e5 0%, #00000093 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #000000e5 0%, #00000093 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #000000e5 0%,#00000093 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000e5', endColorstr='#00000093',GradientType=0 ); /* IE6-9 */
+}
+
+.jumbotron .row {
+    padding: 5rem 4rem;
+    color: white;
+}
+
+/*NOVELS*/
+#novels h3 {
+    margin-top: 0;
+}
+
+#novels .row.book-tile {
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@media (max-width: 992px) {
+    .flex-container {
+        display: block;
+    }
+}
+
+.book-tile {
+    margin: 5rem 10rem;
+    padding: 2rem;
+}
+
+.book {
+    padding: 0;
+    margin: 4rem auto;
+    height: 40rem;
+}
+
+.book img {
+    height: 100%;
+}
+
+
+
+/*FOOTER*/
+#footer {
+ padding:5rem 7rem;
+ background-color: black;
+ color: white;
+}
+
+@media (max-width: 992px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+#footer p {
+ font-weight: 400;
+}
+
+#footer a {
+ color:#d3f3ff;
+}
+
+#footer .fa {
+    padding: 1.5rem;
+}
+
+#footer a:hover {
+ color:#51add1;
+ text-decoration:none;
+}
+
+p.copyright {
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+    font-weight: 300;
+    margin-top: 5rem;
+}
+
+#footer .copyright i.fa.fa-copyright {
+    padding: 0;
+}

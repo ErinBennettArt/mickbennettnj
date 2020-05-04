@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Jost", sans-serif; }
+
+h1, h2, h3 {
+  font-family: 'Lora', serif; }
+
+p {
+  font-family: "Jost", sans-serif;
+  font-size: 1.7rem; }
+
+a {
+  color: inherit; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: inherit; }
+
+.navbar-brand h1 {
+  font-size: 3rem; }
+  .navbar-brand h1:hover {
+    color: #007aa9; }
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
+  background-color: #fff;
+  -webkit-box-shadow: 2px 4px 20px 0px rgba(51, 51, 51, 0.21);
+  -moz-box-shadow: 2px 4px 20px 0px rgba(51, 51, 51, 0.21);
+  box-shadow: 2px 4px 20px 0px rgba(51, 51, 51, 0.21);
+  padding: 1rem 5rem; }
+
+.navbar-nav a.nav-item.nav-link {
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  margin-right: 2rem;
+  padding: .5rem 1.2rem;
+  color: #222; }
+  .navbar-nav a.nav-item.nav-link:hover, .navbar-nav a.nav-item.nav-link:active, .navbar-nav a.nav-item.nav-link:focus, .navbar-nav a.nav-item.nav-link.active {
+    color: #007aa9; }
+
+.carousel-inner {
+  background-image: url(../img/beach.jpg);
+  background-repeat: no-repeat;
+  background-position: middle;
+  background-size: cover;
+  padding: 0;
+  height: 90vh; }
+
+.carousel-overlay {
+  height: 90vh;
+  background: -webkit-linear-gradient(left, #000000ea, #0000009f);
+  background: -moz-linear-gradient(left, #000000ea, #0000009f);
+  background: -o-linear-gradient(left, #000000ea, #0000009f);
+  background: linear-gradient(left, #000000ea, #0000009f); }
+
+.carousel-item img {
+  height: 60%;
+  position: fixed;
+  left: 20%;
+  transform: translate(0, 25%); }
